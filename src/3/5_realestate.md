@@ -174,7 +174,7 @@
   - 加重平均
     - 容積率の異なる地域にまたがって建物の敷地がある場合
   - 前面どうろの幅員による容積率の制限
-    ！[前面どうろの幅員による容積率の制限](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqNXNxEXfmA9I9ZdI8Hg0HvUYZBNhK5sNpYAXpQihpA3zNap56bUlslRb1GTBsicQvxBw&usqp=CAU)
+  ![前面どうろの幅員による容積率の制限](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqNXNxEXfmA9I9ZdI8Hg0HvUYZBNhK5sNpYAXpQihpA3zNap56bUlslRb1GTBsicQvxBw&usqp=CAU)
 #### 農地法
   - 農地等を取引する場合に、原則として許可が必要
   - 農地法ポイント
