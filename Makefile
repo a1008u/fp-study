@@ -1,18 +1,19 @@
 1_base = 1_base
 2_risk = 2_risk
+3_financial = 3_financial
 
 all:
 	npx markmap-cli \
 	-o /workspaces/fp-study/docs/3/$(1_base).html \
-	/workspaces/fp-study/src/3/$(1_base).md;
+	/workspaces/fp-study/src/3/$(1_base)/$(1_base).md;
 	----
 	npx markmap-cli \
 	-o /workspaces/fp-study/docs/3/$(2_risk).html \
-	/workspaces/fp-study/src/3/$(2_risk).md;
+	/workspaces/fp-study/src/3/$(2_risk)/$(2_risk).md;
 	----
 	npx markmap-cli \
-	-o /workspaces/fp-study/docs/3/3_financial.html \
-	/workspaces/fp-study/src/3/3_financial.md;
+	-o /workspaces/fp-study/docs/3/$(3_financial).html \
+	/workspaces/fp-study/src/3/$(3_financial)/$(3_financial).md;
 	----
 	npx markmap-cli \
 	-o /workspaces/fp-study/docs/3/4_taxplanning.html \
