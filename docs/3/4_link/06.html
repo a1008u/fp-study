@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.13.2/dist/style.min.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@6.7.0"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.13.2"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.13.2/dist/index.umd.min.js"></script><script>(r => {
+          setTimeout(r);
+        })(() => {
+  const {
+    markmap,
+    mm
+  } = window;
+  const toolbar = new markmap.Toolbar();
+  toolbar.attach(mm);
+  const el = toolbar.render();
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root, jsonOptions) => {
+        const markmap = getMarkmap();
+        window.mm = markmap.Markmap.create('svg#mindmap', getOptions == null ? void 0 : getOptions(markmap, jsonOptions), root);
+      })(() => window.markmap,(markmap, jsonOptions) => markmap.deriveOptions(jsonOptions),{"type":"heading","depth":1,"payload":{"lines":[0,1]},"content":"06-所得税の申告と納付","children":[{"type":"heading","depth":2,"payload":{"lines":[1,2]},"content":"1.確定申告","children":[{"type":"heading","depth":3,"payload":{"lines":[2,3]},"content":"1.確定申告とは","children":[{"type":"list_item","depth":5,"payload":{"lines":[3,4]},"content":"納税者が自分で所得税額を計算して申告、納付すること"},{"type":"list_item","depth":5,"payload":{"lines":[4,5]},"content":"翌年の2/16 - 3/15まで"}]},{"type":"heading","depth":3,"payload":{"lines":[5,6]},"content":"2.給与所得者で確定申告が必要な場合","children":[{"type":"list_item","depth":5,"payload":{"lines":[6,7]},"content":"その年の給与等の金額が2000万を超える場合"},{"type":"list_item","depth":5,"payload":{"lines":[7,8]},"content":"給与所得、退職所得以外の所得金額が20万円を超える場合"},{"type":"list_item","depth":5,"payload":{"lines":[8,9]},"content":"2カ所以上から給与を受け取っている場合"},{"type":"list_item","depth":5,"payload":{"lines":[9,10]},"content":"住宅借入金等特別控除の定期ようを受ける場合"},{"type":"list_item","depth":5,"payload":{"lines":[10,11]},"content":"雑所得控除、医療費控除、寄附金控除の適用を受ける場合"},{"type":"list_item","depth":5,"payload":{"lines":[11,12]},"content":"配当控除の適用を受ける場合"}]},{"type":"heading","depth":3,"payload":{"lines":[12,13]},"content":"3.準確定申告","children":[{"type":"list_item","depth":5,"payload":{"lines":[13,14]},"content":"納税syが死亡した場合には、死亡した人の遺族が死亡した人の所得について確定申告を行うこと"},{"type":"list_item","depth":5,"payload":{"lines":[14,15]},"content":"期間は、相続のあったことを知った日の翌日から4ヶ月いない"}]}]},{"type":"heading","depth":2,"payload":{"lines":[15,16]},"content":"2.源泉徴収","children":[{"type":"heading","depth":3,"payload":{"lines":[16,17]},"content":"1.源泉徴収とは","children":[{"type":"list_item","depth":5,"payload":{"lines":[17,18]},"content":"給与等を支払う人が、支払いをする際に一定の方ほづえ所得税を計算して、その金額を給与等からあらかじめ差し引くこと"}]},{"type":"heading","depth":3,"payload":{"lines":[18,19]},"content":"2.年末調整とは","children":[{"type":"list_item","depth":5,"payload":{"lines":[19,20]},"content":"給与所得から源泉徴収された所得税の精算を、年末において会社等が本人に変わって行うこと"}]},{"type":"heading","depth":3,"payload":{"lines":[20,21]},"content":"3.給与所得の源泉徴収票の見え方","children":[{"type":"list_item","depth":5,"payload":{"lines":[21,23]},"content":"給与所得の源泉徴収票の見え方<br>\n<img src=\"https://kifunavi.jp/wp-content/uploads/2018/10/4-2.%E7%A8%8E%E9%A1%8D%E7%A2%BA%E5%AE%9A%E3%81%AE%E6%B5%81%E3%82%8C-1024x591.png\" alt=\"給与所得の源泉徴収票の見え方\">"}]}]}]},null)</script>
+</body>
+</html>

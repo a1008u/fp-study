@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.13.2/dist/style.min.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@6.7.0"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.13.2"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.13.2/dist/index.umd.min.js"></script><script>(r => {
+          setTimeout(r);
+        })(() => {
+  const {
+    markmap,
+    mm
+  } = window;
+  const toolbar = new markmap.Toolbar();
+  toolbar.attach(mm);
+  const el = toolbar.render();
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root, jsonOptions) => {
+        const markmap = getMarkmap();
+        window.mm = markmap.Markmap.create('svg#mindmap', getOptions == null ? void 0 : getOptions(markmap, jsonOptions), root);
+      })(() => window.markmap,(markmap, jsonOptions) => markmap.deriveOptions(jsonOptions),{"type":"heading","depth":1,"payload":{"lines":[0,1]},"content":"01-保険の基本","children":[{"type":"heading","depth":2,"payload":{"lines":[1,2]},"content":"1.リスクと保険","children":[{"type":"heading","depth":3,"payload":{"lines":[2,3]},"content":"1.リスクマネージメントとは"},{"type":"heading","depth":3,"payload":{"lines":[3,4]},"content":"2.リスクと保険","children":[{"type":"list_item","depth":5,"payload":{"lines":[4,5]},"content":"人に関するリスク"},{"type":"list_item","depth":5,"payload":{"lines":[5,6]},"content":"物に関するリスク"},{"type":"list_item","depth":5,"payload":{"lines":[6,7]},"content":"障害賠償に関するリスク"}]},{"type":"heading","depth":3,"payload":{"lines":[7,8]},"content":"3.公的保険と私的保険","children":[{"type":"list_item","depth":5,"payload":{"lines":[8,9]},"content":"公的保険"},{"type":"list_item","depth":5,"payload":{"lines":[9,10]},"content":"私的保険","children":[{"type":"list_item","depth":7,"payload":{"lines":[10,11]},"content":"生命保険（第一分野）","children":[{"type":"list_item","depth":9,"payload":{"lines":[11,12]},"content":"生命保険会社で取扱い"}]},{"type":"list_item","depth":7,"payload":{"lines":[12,13]},"content":"第三分野の保険","children":[{"type":"list_item","depth":9,"payload":{"lines":[13,14]},"content":"生命保険会社で取扱い"},{"type":"list_item","depth":9,"payload":{"lines":[14,15]},"content":"損害保険会社で取扱い"}]},{"type":"list_item","depth":7,"payload":{"lines":[15,16]},"content":"損害保険（第二分野）","children":[{"type":"list_item","depth":9,"payload":{"lines":[16,17]},"content":"損害保険会社で取扱い"}]}]}]},{"type":"heading","depth":3,"payload":{"lines":[17,18]},"content":"4.保険法と保険業法","children":[{"type":"heading","depth":4,"payload":{"lines":[18,19]},"content":"1.保険法"},{"type":"heading","depth":4,"payload":{"lines":[29,30]},"content":"2.保険業法"}]}]},{"type":"heading","depth":2,"payload":{"lines":[37,38]},"content":"2.保険の原則","children":[{"type":"heading","depth":3,"payload":{"lines":[38,39]},"content":"1.大数の原則"},{"type":"heading","depth":3,"payload":{"lines":[39,40]},"content":"2.収支相等の原則","children":[{"type":"list_item","depth":5,"payload":{"lines":[40,41]},"content":"保険会社の収入（保険料総額+運用収益）= 保険会社の支出（保険金額+経費）"}]}]},{"type":"heading","depth":2,"payload":{"lines":[41,42]},"content":"3.契約者等の保護","children":[{"type":"heading","depth":3,"payload":{"lines":[42,43]},"content":"1.保険契約者保護機構","children":[{"type":"list_item","depth":5,"payload":{"lines":[43,44]},"content":"生命保険契約者保護機構","children":[{"type":"list_item","depth":7,"payload":{"lines":[44,45]},"content":"破綻時点の責任準備金（保険会社が将来、支払う保険金等のために積み立てておく金額）の90%まで保証"}]},{"type":"list_item","depth":5,"payload":{"lines":[45,46]},"content":"生命保険契約者保護機関","children":[{"type":"list_item","depth":7,"payload":{"lines":[46,47]},"content":"保険金から80%から100%（自賠責保険、地震保険が100％の対象）を保証"}]},{"type":"list_item","depth":5,"payload":{"lines":[47,48]},"content":"加入義務","children":[{"type":"list_item","depth":7,"payload":{"lines":[48,49]},"content":"[○]保険会社"},{"type":"list_item","depth":7,"payload":{"lines":[49,50]},"content":"[×]少額短期保険業者"},{"type":"list_item","depth":7,"payload":{"lines":[50,51]},"content":"[×]共済"}]}]},{"type":"heading","depth":3,"payload":{"lines":[51,52]},"content":"2.クーリングオフ制度","children":[{"type":"list_item","depth":5,"payload":{"lines":[52,53]},"content":"手続き","children":[{"type":"list_item","depth":7,"payload":{"lines":[53,54]},"content":"契約の申込日orクーリングオフについての書面を受け取った日の遅い日から8日いないに、申し込みの撤回または解除を書面で行う。"}]},{"type":"list_item","depth":5,"payload":{"lines":[54,55]},"content":"不可の条件","children":[{"type":"list_item","depth":7,"payload":{"lines":[55,56]},"content":"保険会社の営業所に出向いて契約をした場合"},{"type":"list_item","depth":7,"payload":{"lines":[56,57]},"content":"保険期間が1年以内の保険の場合"},{"type":"list_item","depth":7,"payload":{"lines":[57,58]},"content":"契約に当たって医師の診査を受けた場合"}]}]},{"type":"heading","depth":3,"payload":{"lines":[58,59]},"content":"3.ソルベンシー・マージン比率","children":[{"type":"list_item","depth":5,"payload":{"lines":[59,60]},"content":"予測できないリスクが発生した場合に、保険会社が対応しているかどうかを判断する指標"},{"type":"list_item","depth":5,"payload":{"lines":[60,61]},"content":"200%以上が健全性の目安"}]}]}]},null)</script>
+</body>
+</html>
