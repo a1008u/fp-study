@@ -387,7 +387,15 @@
   - 分類
   ![分類](https://www.tokaitokyo.co.jp/otome/investment/trust/images/kind_il01.gif)
   - 運用スタイル
-  ![運用スタイル](https://www.39asset.co.jp/blog/_images/e0f209efd68010e5bce0b718a2fb45ac1f3d410d.gif)
+  国内株式に投資する投資信託
+    - アクティブ運用
+      - トップダウンアプローチ
+      - ボトムアップアプローチ
+      - グロース投資
+      - バリュー投資
+    - パッシブ運用
+      - インデックス（非上場投資信託）
+      - ETF（上場投資信託）
 ##### 2.MRF（マネーリザーブファンド）
   - ペナルティなしで解約できる
   - 日々収益計上、月末にまとめて再投資
