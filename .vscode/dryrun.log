@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/a_uemoto/Documents/GitHub/fp-study'
+make split;
+make html;
+make: Leaving directory `/Users/a_uemoto/Documents/GitHub/fp-study'
+ 

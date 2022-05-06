@@ -1,0 +1,418 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+
+# Make data base, printed on Fri May  6 13:50:29 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# makefile (from `Makefile', line 1)
+1_base = 1_base
+# environment
+GOENV_ROOT = /Users/a_uemoto/.goenv
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# makefile (from `Makefile', line 13)
+06 = 06
+# makefile (from `Makefile', line 14)
+07 = 07
+# makefile (from `Makefile', line 15)
+08 = 08
+# makefile (from `Makefile', line 16)
+09 = 09
+# environment
+HMR_PORT = 53263
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /Users/a_uemoto/Documents/GitHub/fp-study
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"ja","availableLanguages":{"*":"ja"},"_languagePackId":"ca8fefa23466d7bf442ef9effea697e9.ja","_translationsConfigFile":"/Users/a_uemoto/Library/Application Support/Code/clp/ca8fefa23466d7bf442ef9effea697e9.ja/tcf.json","_cacheRoot":"/Users/a_uemoto/Library/Application Support/Code/clp/ca8fefa23466d7bf442ef9effea697e9.ja","_resolvedLanguagePackCoreLocation":"/Users/a_uemoto/Library/Application Support/Code/clp/ca8fefa23466d7bf442ef9effea697e9.ja/dfd34e8260c270da74b5c2d86d61aee4b6d56977","_corruptedFile":"/Users/a_uemoto/Library/Application Support/Code/clp/ca8fefa23466d7bf442ef9effea697e9.ja/corrupted.info","_languagePackSupport":true}
+# environment
+_ = /usr/bin/make
+# makefile (from `Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# makefile (from `Makefile', line 4)
+4_taxplanning = 4_taxplanning
+# makefile (from `Makefile', line 8)
+01 = 01
+# environment
+GOENV_SHELL = zsh
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/0r/77n39v_93s598tdd9ct6rm2c30wymd/T/vscode-ipc-dd6c60ec-78b9-4e0b-a02c-9df07dc1b261.sock
+# environment
+VSCODE_CWD = /
+# makefile (from `Makefile', line 9)
+02 = 02
+# environment
+PATH = /usr/local/opt/mysql-client/bin:/Users/a_uemoto/google-cloud-sdk/bin:/Users/a_uemoto/.pyenv/bin:/Users/a_uemoto/.goenv/shims:/Users/a_uemoto/.goenv/bin:/Users/a_uemoto/.rbenv/shims:/Users/a_uemoto/.rbenv/shims/ruby:/Users/a_uemoto/.yarn/bin:/Users/a_uemoto/.nodebrew/current/bin:/usr/local/sbin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/usr/local/opt/mysql-client/bin:/Users/a_uemoto/google-cloud-sdk/bin:/Users/a_uemoto/.pyenv/bin:/Users/a_uemoto/.goenv/shims:/Users/a_uemoto/.goenv/bin:/Users/a_uemoto/.rbenv/shims:/Users/a_uemoto/.rbenv/shims/ruby:/Users/a_uemoto/.yarn/bin:/Users/a_uemoto/.nodebrew/current/bin:/usr/local/sbin:/Users/a_uemoto/go/bin:/Users/a_uemoto/go/bin:/Users/a_uemoto/Library/Application Support/cloud-code/installer/google-cloud-sdk/bin:/Users/a_uemoto/google-cloud-sdk/bin
+# makefile (from `Makefile', line 5)
+5_realestate = 5_realestate
+# environment
+LSCOLORS = Exfxcxdxbxegedabagacad
+# makefile (from `Makefile', line 2)
+2_risk = 2_risk
+# environment
+SDKMAN_DIR = /root/.sdkman
+# environment
+GOPATH = /Users/a_uemoto/go
+# environment
+VSCODE_LOG_STACK = false
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+PYENV_ROOT = /Users/a_uemoto/.pyenv
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# environment
+LS_COLORS = di=01;34:ln=01;35:so=01;32:ex=01;31:bd=46;34:cd=43;34:su=41;30:sg=46;30:tw=42;30:ow=43;30
+# environment
+CLOUDSDK_METRICS_ENVIRONMENT = cloudcode.vscode
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.GZXCHSVzaF/Listeners
+# automatic
+%F = $(notdir $%)
+# environment
+CLOUDSDK_METRICS_ENVIRONMENT_VERSION = 1.18.1
+# environment
+VSCODE_PIPE_LOGGING = true
+# makefile (from `Makefile', line 10)
+03 = 03
+# environment
+PWD = /Users/a_uemoto/Documents/GitHub/fp-study
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+PYENV_SHELL = zsh
+# environment
+HOME = /Users/a_uemoto
+# default
+MAKEFILEPATH = $(shell /usr/bin/xcode-select -print-path 2>/dev/null || echo /Developer)/Makefiles
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/a_uemoto/Library/Application Support/Code/CachedData/dfd34e8260c270da74b5c2d86d61aee4b6d56977
+# environment
+LOGNAME = a_uemoto
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# makefile (from `Makefile', line 12)
+05 = 05
+# environment
+XPC_FLAGS = 0x0
+# default
+MAKE = $(MAKE_COMMAND)
+# makefile (from `Makefile', line 6)
+6_inheritance = 6_inheritance
+# default
+MAKECMDGOALS := all
+# environment
+HOMEBREW_CASK_OPTS = --appdir=/Applications
+# environment
+SHLVL = 1
+# environment
+LOCAL_GIT_DIRECTORY = /Applications/GitHub Desktop.app/Contents/Resources/app/git
+# environment
+HMR_HOSTNAME = localhost
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = a_uemoto
+# makefile
+.DEFAULT_GOAL := all
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := /Library/Developer/CommandLineTools/usr/bin/make
+# default
+.VARIABLES := 
+# environment
+TMPDIR = /var/folders/0r/77n39v_93s598tdd9ct6rm2c30wymd/T/
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /Users/a_uemoto/Library/Application Support/Code/1.66.2-main.sock
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+XPC_SERVICE_NAME = com.microsoft.VSCode.54272
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# environment
+__CF_USER_TEXT_ENCODING = 0x60E7A8D:0x1:0xE
+# makefile (from `Makefile', line 11)
+04 = 04
+# default
+MAKEFILES := 
+# environment
+RBENV_SHELL = zsh
+# automatic
+<F = $(notdir $<)
+# makefile (from `Makefile', line 3)
+3_financial = 3_financial
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# default
+.INCLUDE_DIRS = /usr/local/include
+# environment
+MAKELEVEL := 0
+# environment
+LANG = C
+# environment
+VSCODE_PID = 3872
+# variable set hash-table stats:
+# Load=90/1024=9%, Rehash=0, Collisions=3/116=3%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 16777221, inode 106820153): 11 files, no impossibilities.
+
+# 11 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+all:
+#  Command-line target.
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: `'
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := all
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := 
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/10=10%
+#  commands to execute (from `Makefile', line 19):
+	make split;
+	make html;
+	
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-06 13:43:14
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+html:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 91):
+	npx markmap-cli \
+	-o /workspaces/fp-study/docs/3/fp_mind_link.html \
+	/workspaces/fp-study/src/3/fp_mind_link.md;
+	------------------------------------
+	npx markmap-cli -o /workspaces/fp-study/docs/3/$(1_base).html /workspaces/fp-study/src/3/$(1_base)/$(1_base).md;
+	npx markmap-cli -o /workspaces/fp-study/docs/3/$(1_base)_link.html /workspaces/fp-study/src/3/$(1_base)/$(1_base)_link.md;
+ 
+	npx markmap-cli -o /workspaces/fp-study/docs/3/1_link/$(01).html /workspaces/fp-study/src/3/$(1_base)/1_link/$(01).md;
+	npx markmap-cli -o /workspaces/fp-study/docs/3/1_link/$(02).html /workspaces/fp-study/src/3/$(1_base)/1_link/$(02).md;
+	npx markmap-cli -o /workspaces/fp-study/docs/3/1_link/$(03).html /workspaces/fp-study/src/3/$(1_base)/1_link/$(03).md;
+	npx markmap-cli -o /workspaces/fp-study/docs/3/1_link/$(04).html /workspaces/fp-study/src/3/$(1_base)/1_link/$(04).md;
+	npx markmap-cli -o /workspaces/fp-study/docs/3/1_link/$(05).html /workspaces/fp-study/src/3/$(1_base)/1_link/$(05).md;
+	npx markmap-cli -o /workspaces/fp-study/docs/3/1_link/$(06).html /workspaces/fp-study/src/3/$(1_base)/1_link/$(06).md;
+	npx markmap-cli -o /workspaces/fp-study/docs/3/1_link/$(07).html /workspaces/fp-study/src/3/$(1_base)/1_link/$(07).md;
+	npx markmap-cli -o /workspaces/fp-study/docs/3/1_link/$(08).html /workspaces/fp-study/src/3/$(1_base)/1_link/$(08).md;
+	npx markmap-cli -o /workspaces/fp-study/docs/3/1_link/$(09).html /workspaces/fp-study/src/3/$(1_base)/1_link/$(09).md;
+	----
+	npx markmap-cli -o /workspaces/fp-study/docs/3/$(2_risk).html /workspaces/fp-study/src/3/$(2_risk)/$(2_risk).md;
+	npx markmap-cli -o /workspaces/fp-study/docs/3/$(2_risk)_link.html /workspaces/fp-study/src/3/$(2_risk)/$(2_risk)_link.md;
+	npx markmap-cli -o /workspaces/fp-study/docs/3/2_link/$(01).html /workspaces/fp-study/src/3/$(2_risk)/2_link/$(01).md;
+	npx markmap-cli -o /workspaces/fp-study/docs/3/2_link/$(02).html /workspaces/fp-study/src/3/$(2_risk)/2_link/$(02).md;
+	npx markmap-cli -o /workspaces/fp-study/docs/3/2_link/$(03).html /workspaces/fp-study/src/3/$(2_risk)/2_link/$(03).md;
+	npx markmap-cli -o /workspaces/fp-study/docs/3/2_link/$(04).html /workspaces/fp-study/src/3/$(2_risk)/2_link/$(04).md;
+	----
+	npx markmap-cli -o /workspaces/fp-study/docs/3/$(3_financial).html /workspaces/fp-study/src/3/$(3_financial)/$(3_financial).md;
+	npx markmap-cli -o /workspaces/fp-study/docs/3/$(3_financial)_link.html /workspaces/fp-study/src/3/$(3_financial)/$(3_financial)_link.md;
+	npx markmap-cli -o /workspaces/fp-study/docs/3/3_link/$(01).html /workspaces/fp-study/src/3/$(3_financial)/3_link/$(01).md;
+	npx markmap-cli -o /workspaces/fp-study/docs/3/3_link/$(02).html /workspaces/fp-study/src/3/$(3_financial)/3_link/$(02).md;
+	npx markmap-cli -o /workspaces/fp-study/docs/3/3_link/$(03).html /workspaces/fp-study/src/3/$(3_financial)/3_link/$(03).md;
+	npx markmap-cli -o /workspaces/fp-study/docs/3/3_link/$(04).html /workspaces/fp-study/src/3/$(3_financial)/3_link/$(04).md;
+	npx markmap-cli -o /workspaces/fp-study/docs/3/3_link/$(05).html /workspaces/fp-study/src/3/$(3_financial)/3_link/$(05).md;
+	npx markmap-cli -o /workspaces/fp-study/docs/3/3_link/$(06).html /workspaces/fp-study/src/3/$(3_financial)/3_link/$(06).md;
+	npx markmap-cli -o /workspaces/fp-study/docs/3/3_link/$(07).html /workspaces/fp-study/src/3/$(3_financial)/3_link/$(07).md;
+	npx markmap-cli -o /workspaces/fp-study/docs/3/3_link/$(08).html /workspaces/fp-study/src/3/$(3_financial)/3_link/$(08).md;
+	npx markmap-cli -o /workspaces/fp-study/docs/3/3_link/$(09).html /workspaces/fp-study/src/3/$(3_financial)/3_link/$(09).md;
+	----
+	npx markmap-cli -o /workspaces/fp-study/docs/3/$(4_taxplanning).html /workspaces/fp-study/src/3/$(4_taxplanning)/$(4_taxplanning).md;
+	npx markmap-cli -o /workspaces/fp-study/docs/3/$(4_taxplanning)_link.html /workspaces/fp-study/src/3/$(4_taxplanning)/$(4_taxplanning)_link.md;
+	npx markmap-cli -o /workspaces/fp-study/docs/3/4_link/$(01).html /workspaces/fp-study/src/3/$(4_taxplanning)/4_link/$(01).md;
+	npx markmap-cli -o /workspaces/fp-study/docs/3/4_link/$(02).html /workspaces/fp-study/src/3/$(4_taxplanning)/4_link/$(02).md;
+	npx markmap-cli -o /workspaces/fp-study/docs/3/4_link/$(03).html /workspaces/fp-study/src/3/$(4_taxplanning)/4_link/$(03).md;
+	npx markmap-cli -o /workspaces/fp-study/docs/3/4_link/$(04).html /workspaces/fp-study/src/3/$(4_taxplanning)/4_link/$(04).md;
+	npx markmap-cli -o /workspaces/fp-study/docs/3/4_link/$(05).html /workspaces/fp-study/src/3/$(4_taxplanning)/4_link/$(05).md;
+	npx markmap-cli -o /workspaces/fp-study/docs/3/4_link/$(06).html /workspaces/fp-study/src/3/$(4_taxplanning)/4_link/$(06).md;
+	npx markmap-cli -o /workspaces/fp-study/docs/3/4_link/$(07).html /workspaces/fp-study/src/3/$(4_taxplanning)/4_link/$(07).md;
+	----
+	npx markmap-cli -o /workspaces/fp-study/docs/3/$(5_realestate).html /workspaces/fp-study/src/3/$(5_realestate)/$(5_realestate).md;
+	npx markmap-cli -o /workspaces/fp-study/docs/3/$(5_realestate)_link.html /workspaces/fp-study/src/3/$(5_realestate)/$(5_realestate)_link.md;
+	npx markmap-cli -o /workspaces/fp-study/docs/3/5_link/$(01).html /workspaces/fp-study/src/3/$(5_realestate)/5_link/$(01).md;
+	npx markmap-cli -o /workspaces/fp-study/docs/3/5_link/$(02).html /workspaces/fp-study/src/3/$(5_realestate)/5_link/$(02).md;
+	npx markmap-cli -o /workspaces/fp-study/docs/3/5_link/$(03).html /workspaces/fp-study/src/3/$(5_realestate)/5_link/$(03).md;
+	npx markmap-cli -o /workspaces/fp-study/docs/3/5_link/$(04).html /workspaces/fp-study/src/3/$(5_realestate)/5_link/$(04).md;
+	npx markmap-cli -o /workspaces/fp-study/docs/3/5_link/$(05).html /workspaces/fp-study/src/3/$(5_realestate)/5_link/$(05).md;
+	----
+	npx markmap-cli -o /workspaces/fp-study/docs/3/$(6_inheritance).html /workspaces/fp-study/src/3/$(6_inheritance)/$(6_inheritance).md;
+	npx markmap-cli -o /workspaces/fp-study/docs/3/$(6_inheritance)_link.html /workspaces/fp-study/src/3/$(6_inheritance)/$(6_inheritance)_link.md;
+	npx markmap-cli -o /workspaces/fp-study/docs/3/6_link/$(01).html /workspaces/fp-study/src/3/$(6_inheritance)/6_link/$(01).md;
+	npx markmap-cli -o /workspaces/fp-study/docs/3/6_link/$(02).html /workspaces/fp-study/src/3/$(6_inheritance)/6_link/$(02).md;
+	npx markmap-cli -o /workspaces/fp-study/docs/3/6_link/$(03).html /workspaces/fp-study/src/3/$(6_inheritance)/6_link/$(03).md;
+	npx markmap-cli -o /workspaces/fp-study/docs/3/6_link/$(04).html /workspaces/fp-study/src/3/$(6_inheritance)/6_link/$(04).md;
+	
+
+split:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 23):
+	csplit /workspaces/fp-study/src/3/fp_mind.md '/^## .*/' {5};
+	mv /workspaces/fp-study/xx01 /workspaces/fp-study/src/3/$(1_base)/$(1_base).md;
+	mv /workspaces/fp-study/xx02 /workspaces/fp-study/src/3/$(2_risk)/$(2_risk).md;
+	mv /workspaces/fp-study/xx03 /workspaces/fp-study/src/3/$(3_financial)/$(3_financial).md;
+	mv /workspaces/fp-study/xx04 /workspaces/fp-study/src/3/$(4_taxplanning)/$(4_taxplanning).md;
+	mv /workspaces/fp-study/xx05 /workspaces/fp-study/src/3/$(5_realestate)/$(5_realestate).md;
+	mv /workspaces/fp-study/xx06 /workspaces/fp-study/src/3/$(6_inheritance)/$(6_inheritance).md;
+	rm -rf /workspaces/fp-study/xx00;
+	--------
+	csplit /workspaces/fp-study/src/3/$(1_base)/$(1_base).md '/^### .*/' {8};
+	mv /workspaces/fp-study/xx01 /workspaces/fp-study/src/3/$(1_base)/1_link/$(01).md;
+	mv /workspaces/fp-study/xx02 /workspaces/fp-study/src/3/$(1_base)/1_link/$(02).md;
+	mv /workspaces/fp-study/xx03 /workspaces/fp-study/src/3/$(1_base)/1_link/$(03).md;
+	mv /workspaces/fp-study/xx04 /workspaces/fp-study/src/3/$(1_base)/1_link/$(04).md;
+	mv /workspaces/fp-study/xx05 /workspaces/fp-study/src/3/$(1_base)/1_link/$(05).md;
+	mv /workspaces/fp-study/xx06 /workspaces/fp-study/src/3/$(1_base)/1_link/$(06).md;
+	mv /workspaces/fp-study/xx07 /workspaces/fp-study/src/3/$(1_base)/1_link/$(07).md;
+	mv /workspaces/fp-study/xx08 /workspaces/fp-study/src/3/$(1_base)/1_link/$(08).md;
+	mv /workspaces/fp-study/xx09 /workspaces/fp-study/src/3/$(1_base)/1_link/$(09).md;
+	rm -rf /workspaces/fp-study/xx00;
+	--------
+	csplit /workspaces/fp-study/src/3/$(2_risk)/$(2_risk).md '/^### .*/' {3};
+	mv /workspaces/fp-study/xx01 /workspaces/fp-study/src/3/$(2_risk)/2_link/$(01).md;
+	mv /workspaces/fp-study/xx02 /workspaces/fp-study/src/3/$(2_risk)/2_link/$(02).md;
+	mv /workspaces/fp-study/xx03 /workspaces/fp-study/src/3/$(2_risk)/2_link/$(03).md;
+	mv /workspaces/fp-study/xx04 /workspaces/fp-study/src/3/$(2_risk)/2_link/$(04).md;
+ 
+	rm -rf /workspaces/fp-study/xx00;
+	--------
+	csplit /workspaces/fp-study/src/3/$(3_financial)/$(3_financial).md '/^### .*/' {8};
+	mv /workspaces/fp-study/xx01 /workspaces/fp-study/src/3/$(3_financial)/3_link/$(01).md;
+	mv /workspaces/fp-study/xx02 /workspaces/fp-study/src/3/$(3_financial)/3_link/$(02).md;
+	mv /workspaces/fp-study/xx03 /workspaces/fp-study/src/3/$(3_financial)/3_link/$(03).md;
+	mv /workspaces/fp-study/xx04 /workspaces/fp-study/src/3/$(3_financial)/3_link/$(04).md;
+	mv /workspaces/fp-study/xx05 /workspaces/fp-study/src/3/$(3_financial)/3_link/$(05).md;
+	mv /workspaces/fp-study/xx06 /workspaces/fp-study/src/3/$(3_financial)/3_link/$(06).md;
+	mv /workspaces/fp-study/xx07 /workspaces/fp-study/src/3/$(3_financial)/3_link/$(07).md;
+	mv /workspaces/fp-study/xx08 /workspaces/fp-study/src/3/$(3_financial)/3_link/$(08).md;
+	mv /workspaces/fp-study/xx09 /workspaces/fp-study/src/3/$(3_financial)/3_link/$(09).md;
+	rm -rf /workspaces/fp-study/xx00;
+	--------
+	csplit /workspaces/fp-study/src/3/$(4_taxplanning)/$(4_taxplanning).md '/^### .*/' {6};
+	mv /workspaces/fp-study/xx01 /workspaces/fp-study/src/3/$(4_taxplanning)/4_link/$(01).md;
+	mv /workspaces/fp-study/xx02 /workspaces/fp-study/src/3/$(4_taxplanning)/4_link/$(02).md;
+	mv /workspaces/fp-study/xx03 /workspaces/fp-study/src/3/$(4_taxplanning)/4_link/$(03).md;
+	mv /workspaces/fp-study/xx04 /workspaces/fp-study/src/3/$(4_taxplanning)/4_link/$(04).md;
+	mv /workspaces/fp-study/xx05 /workspaces/fp-study/src/3/$(4_taxplanning)/4_link/$(05).md;
+	mv /workspaces/fp-study/xx06 /workspaces/fp-study/src/3/$(4_taxplanning)/4_link/$(06).md;
+	mv /workspaces/fp-study/xx07 /workspaces/fp-study/src/3/$(4_taxplanning)/4_link/$(07).md;
+	rm -rf /workspaces/fp-study/xx00;
+	--------
+	csplit /workspaces/fp-study/src/3/$(5_realestate)/$(5_realestate).md '/^### .*/' {4};
+	mv /workspaces/fp-study/xx01 /workspaces/fp-study/src/3/$(5_realestate)/5_link/$(01).md;
+	mv /workspaces/fp-study/xx02 /workspaces/fp-study/src/3/$(5_realestate)/5_link/$(02).md;
+	mv /workspaces/fp-study/xx03 /workspaces/fp-study/src/3/$(5_realestate)/5_link/$(03).md;
+	mv /workspaces/fp-study/xx04 /workspaces/fp-study/src/3/$(5_realestate)/5_link/$(04).md;
+	mv /workspaces/fp-study/xx05 /workspaces/fp-study/src/3/$(5_realestate)/5_link/$(05).md;
+	rm -rf /workspaces/fp-study/xx00
+	--------
+	csplit /workspaces/fp-study/src/3/$(6_inheritance)/$(6_inheritance).md '/^### .*/' {3};
+	mv /workspaces/fp-study/xx01 /workspaces/fp-study/src/3/$(6_inheritance)/6_link/$(01).md;
+	mv /workspaces/fp-study/xx02 /workspaces/fp-study/src/3/$(6_inheritance)/6_link/$(02).md;
+	mv /workspaces/fp-study/xx03 /workspaces/fp-study/src/3/$(6_inheritance)/6_link/$(03).md;
+	mv /workspaces/fp-study/xx04 /workspaces/fp-study/src/3/$(6_inheritance)/6_link/$(04).md;
+	rm -rf /workspaces/fp-study/xx00
+	
+
+# files hash-table stats:
+# Load=6/1024=1%, Rehash=0, Collisions=0/20=0%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Fri May  6 13:50:29 2022
+
+ 
