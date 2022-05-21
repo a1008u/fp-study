@@ -7,7 +7,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 
 # This program built for i386-apple-darwin11.3.0
 
-# Make data base, printed on Fri May  6 13:50:29 2022
+# Make data base, printed on Sat May 21 21:23:34 2022
 
 # Variables
 
@@ -42,7 +42,7 @@ CURDIR := /Users/a_uemoto/Documents/GitHub/fp-study
 # makefile
 SHELL = /bin/sh
 # environment
-VSCODE_NLS_CONFIG = {"locale":"ja","availableLanguages":{"*":"ja"},"_languagePackId":"ca8fefa23466d7bf442ef9effea697e9.ja","_translationsConfigFile":"/Users/a_uemoto/Library/Application Support/Code/clp/ca8fefa23466d7bf442ef9effea697e9.ja/tcf.json","_cacheRoot":"/Users/a_uemoto/Library/Application Support/Code/clp/ca8fefa23466d7bf442ef9effea697e9.ja","_resolvedLanguagePackCoreLocation":"/Users/a_uemoto/Library/Application Support/Code/clp/ca8fefa23466d7bf442ef9effea697e9.ja/dfd34e8260c270da74b5c2d86d61aee4b6d56977","_corruptedFile":"/Users/a_uemoto/Library/Application Support/Code/clp/ca8fefa23466d7bf442ef9effea697e9.ja/corrupted.info","_languagePackSupport":true}
+VSCODE_NLS_CONFIG = {"locale":"ja","availableLanguages":{"*":"ja"},"_languagePackId":"f5b8523d60216379ef9ba6dc243eb093.ja","_translationsConfigFile":"/Users/a_uemoto/Library/Application Support/Code/clp/f5b8523d60216379ef9ba6dc243eb093.ja/tcf.json","_cacheRoot":"/Users/a_uemoto/Library/Application Support/Code/clp/f5b8523d60216379ef9ba6dc243eb093.ja","_resolvedLanguagePackCoreLocation":"/Users/a_uemoto/Library/Application Support/Code/clp/f5b8523d60216379ef9ba6dc243eb093.ja/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5","_corruptedFile":"/Users/a_uemoto/Library/Application Support/Code/clp/f5b8523d60216379ef9ba6dc243eb093.ja/corrupted.info","_languagePackSupport":true}
 # environment
 _ = /usr/bin/make
 # makefile (from `Makefile', line 1)
@@ -56,13 +56,13 @@ GOENV_SHELL = zsh
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /var/folders/0r/77n39v_93s598tdd9ct6rm2c30wymd/T/vscode-ipc-dd6c60ec-78b9-4e0b-a02c-9df07dc1b261.sock
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/0r/77n39v_93s598tdd9ct6rm2c30wymd/T/vscode-ipc-dcf1a51d-ce9c-4bfd-99a7-566be04d21b3.sock
 # environment
 VSCODE_CWD = /
 # makefile (from `Makefile', line 9)
 02 = 02
 # environment
-PATH = /usr/local/opt/mysql-client/bin:/Users/a_uemoto/google-cloud-sdk/bin:/Users/a_uemoto/.pyenv/bin:/Users/a_uemoto/.goenv/shims:/Users/a_uemoto/.goenv/bin:/Users/a_uemoto/.rbenv/shims:/Users/a_uemoto/.rbenv/shims/ruby:/Users/a_uemoto/.yarn/bin:/Users/a_uemoto/.nodebrew/current/bin:/usr/local/sbin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/usr/local/opt/mysql-client/bin:/Users/a_uemoto/google-cloud-sdk/bin:/Users/a_uemoto/.pyenv/bin:/Users/a_uemoto/.goenv/shims:/Users/a_uemoto/.goenv/bin:/Users/a_uemoto/.rbenv/shims:/Users/a_uemoto/.rbenv/shims/ruby:/Users/a_uemoto/.yarn/bin:/Users/a_uemoto/.nodebrew/current/bin:/usr/local/sbin:/Users/a_uemoto/go/bin:/Users/a_uemoto/go/bin:/Users/a_uemoto/Library/Application Support/cloud-code/installer/google-cloud-sdk/bin:/Users/a_uemoto/google-cloud-sdk/bin
+PATH = /usr/local/opt/mysql-client/bin:/Users/a_uemoto/google-cloud-sdk/bin:/Users/a_uemoto/.pyenv/bin:/Users/a_uemoto/.goenv/shims:/Users/a_uemoto/.goenv/bin:/Users/a_uemoto/.rbenv/shims:/Users/a_uemoto/.rbenv/shims/ruby:/Users/a_uemoto/.yarn/bin:/Users/a_uemoto/.nodebrew/current/bin:/usr/local/sbin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/a_uemoto/go/bin:/Users/a_uemoto/Library/Application Support/cloud-code/installer/google-cloud-sdk/bin:/Users/a_uemoto/google-cloud-sdk/bin
 # makefile (from `Makefile', line 5)
 5_realestate = 5_realestate
 # environment
@@ -86,11 +86,11 @@ LS_COLORS = di=01;34:ln=01;35:so=01;32:ex=01;31:bd=46;34:cd=43;34:su=41;30:sg=46
 # environment
 CLOUDSDK_METRICS_ENVIRONMENT = cloudcode.vscode
 # environment
-SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.GZXCHSVzaF/Listeners
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.nIAXA8PR2J/Listeners
 # automatic
 %F = $(notdir $%)
 # environment
-CLOUDSDK_METRICS_ENVIRONMENT_VERSION = 1.18.1
+CLOUDSDK_METRICS_ENVIRONMENT_VERSION = 1.18.2
 # environment
 VSCODE_PIPE_LOGGING = true
 # makefile (from `Makefile', line 10)
@@ -108,7 +108,7 @@ HOME = /Users/a_uemoto
 # default
 MAKEFILEPATH = $(shell /usr/bin/xcode-select -print-path 2>/dev/null || echo /Developer)/Makefiles
 # environment
-VSCODE_CODE_CACHE_PATH = /Users/a_uemoto/Library/Application Support/Code/CachedData/dfd34e8260c270da74b5c2d86d61aee4b6d56977
+VSCODE_CODE_CACHE_PATH = /Users/a_uemoto/Library/Application Support/Code/CachedData/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
 # environment
 LOGNAME = a_uemoto
 # environment
@@ -132,8 +132,6 @@ HOMEBREW_CASK_OPTS = --appdir=/Applications
 # environment
 SHLVL = 1
 # environment
-LOCAL_GIT_DIRECTORY = /Applications/GitHub Desktop.app/Contents/Resources/app/git
-# environment
 HMR_HOSTNAME = localhost
 # default
 MAKE_VERSION := 3.81
@@ -152,7 +150,7 @@ TMPDIR = /var/folders/0r/77n39v_93s598tdd9ct6rm2c30wymd/T/
 # automatic
 *F = $(notdir $*)
 # environment
-VSCODE_IPC_HOOK = /Users/a_uemoto/Library/Application Support/Code/1.66.2-main.sock
+VSCODE_IPC_HOOK = /Users/a_uemoto/Library/Application Support/Code/1.67.2-main.sock
 # makefile
 MAKEFLAGS = Rrqp
 # environment
@@ -160,7 +158,7 @@ MFLAGS = -Rrqp
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
-XPC_SERVICE_NAME = com.microsoft.VSCode.54272
+XPC_SERVICE_NAME = com.microsoft.VSCode.56628
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
 # automatic
@@ -190,9 +188,9 @@ MAKELEVEL := 0
 # environment
 LANG = C
 # environment
-VSCODE_PID = 3872
+VSCODE_PID = 2169
 # variable set hash-table stats:
-# Load=90/1024=9%, Rehash=0, Collisions=3/116=3%
+# Load=89/1024=9%, Rehash=0, Collisions=3/115=3%
 
 # Pattern-specific Variable Values
 
@@ -200,9 +198,9 @@ VSCODE_PID = 3872
 
 # Directories
 
-# . (device 16777221, inode 106820153): 11 files, no impossibilities.
+# . (device 16777223, inode 106820153): 15 files, no impossibilities.
 
-# 11 files, no impossibilities in 1 directories.
+# 15 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -272,10 +270,10 @@ html:
 	------------------------------------
 	npx markmap-cli -o /workspaces/fp-study/docs/3/$(1_base).html /workspaces/fp-study/src/3/$(1_base)/$(1_base).md;
 	npx markmap-cli -o /workspaces/fp-study/docs/3/$(1_base)_link.html /workspaces/fp-study/src/3/$(1_base)/$(1_base)_link.md;
- 
 	npx markmap-cli -o /workspaces/fp-study/docs/3/1_link/$(01).html /workspaces/fp-study/src/3/$(1_base)/1_link/$(01).md;
 	npx markmap-cli -o /workspaces/fp-study/docs/3/1_link/$(02).html /workspaces/fp-study/src/3/$(1_base)/1_link/$(02).md;
 	npx markmap-cli -o /workspaces/fp-study/docs/3/1_link/$(03).html /workspaces/fp-study/src/3/$(1_base)/1_link/$(03).md;
+ 
 	npx markmap-cli -o /workspaces/fp-study/docs/3/1_link/$(04).html /workspaces/fp-study/src/3/$(1_base)/1_link/$(04).md;
 	npx markmap-cli -o /workspaces/fp-study/docs/3/1_link/$(05).html /workspaces/fp-study/src/3/$(1_base)/1_link/$(05).md;
 	npx markmap-cli -o /workspaces/fp-study/docs/3/1_link/$(06).html /workspaces/fp-study/src/3/$(1_base)/1_link/$(06).md;
@@ -359,12 +357,12 @@ split:
 	mv /workspaces/fp-study/xx02 /workspaces/fp-study/src/3/$(2_risk)/2_link/$(02).md;
 	mv /workspaces/fp-study/xx03 /workspaces/fp-study/src/3/$(2_risk)/2_link/$(03).md;
 	mv /workspaces/fp-study/xx04 /workspaces/fp-study/src/3/$(2_risk)/2_link/$(04).md;
- 
 	rm -rf /workspaces/fp-study/xx00;
 	--------
 	csplit /workspaces/fp-study/src/3/$(3_financial)/$(3_financial).md '/^### .*/' {8};
 	mv /workspaces/fp-study/xx01 /workspaces/fp-study/src/3/$(3_financial)/3_link/$(01).md;
 	mv /workspaces/fp-study/xx02 /workspaces/fp-study/src/3/$(3_financial)/3_link/$(02).md;
+ 
 	mv /workspaces/fp-study/xx03 /workspaces/fp-study/src/3/$(3_financial)/3_link/$(03).md;
 	mv /workspaces/fp-study/xx04 /workspaces/fp-study/src/3/$(3_financial)/3_link/$(04).md;
 	mv /workspaces/fp-study/xx05 /workspaces/fp-study/src/3/$(3_financial)/3_link/$(05).md;
@@ -413,6 +411,6 @@ split:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Fri May  6 13:50:29 2022
+# Finished Make data base on Sat May 21 21:23:34 2022
 
  
