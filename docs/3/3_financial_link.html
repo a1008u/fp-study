@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.13.3/dist/style.min.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@6.7.0"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.13.3"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.13.3/dist/index.umd.min.js"></script><script>(r => {
+          setTimeout(r);
+        })(() => {
+  const {
+    markmap,
+    mm
+  } = window;
+  const toolbar = new markmap.Toolbar();
+  toolbar.attach(mm);
+  const el = toolbar.render();
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root, jsonOptions) => {
+        const markmap = getMarkmap();
+        window.mm = markmap.Markmap.create('svg#mindmap', (getOptions || markmap.deriveOptions)(jsonOptions), root);
+      })(() => window.markmap,null,{"type":"heading","depth":1,"payload":{"lines":[0,1]},"content":"金融資産運用","children":[{"type":"heading","depth":2,"payload":{"lines":[1,2]},"content":"01-金融、経済の基本","children":[{"type":"list_item","depth":4,"payload":{"lines":[2,3]},"content":"<a href=\"./3_link/01.html\">01-金融、経済の基本</a>"}]},{"type":"heading","depth":2,"payload":{"lines":[3,4]},"content":"02-セーフティネットと関連法規","children":[{"type":"list_item","depth":4,"payload":{"lines":[4,5]},"content":"<a href=\"./3_link/02.html\">02-セーフティネットと関連法規</a>"}]},{"type":"heading","depth":2,"payload":{"lines":[5,6]},"content":"03-貯蓄型金融商品","children":[{"type":"list_item","depth":4,"payload":{"lines":[6,7]},"content":"<a href=\"./3_link/03.html\">03-貯蓄型金融商品</a>"}]},{"type":"heading","depth":2,"payload":{"lines":[7,8]},"content":"04-債券","children":[{"type":"list_item","depth":4,"payload":{"lines":[8,9]},"content":"<a href=\"./3_link/04.html\">04-債券</a>"}]},{"type":"heading","depth":2,"payload":{"lines":[9,10]},"content":"05-株式","children":[{"type":"list_item","depth":4,"payload":{"lines":[10,11]},"content":"<a href=\"./3_link/05.html\">05-株式</a>"}]},{"type":"heading","depth":2,"payload":{"lines":[11,12]},"content":"06-投資信託","children":[{"type":"list_item","depth":4,"payload":{"lines":[12,13]},"content":"<a href=\"./3_link/06.html\">06-投資信託</a>"}]},{"type":"heading","depth":2,"payload":{"lines":[13,14]},"content":"07-外貨建て金融商品","children":[{"type":"list_item","depth":4,"payload":{"lines":[14,15]},"content":"<a href=\"./3_link/07.html\">07-外貨建て金融商品</a>"}]},{"type":"heading","depth":2,"payload":{"lines":[15,16]},"content":"08-金融商品と税金","children":[{"type":"list_item","depth":4,"payload":{"lines":[16,17]},"content":"<a href=\"./3_link/08.html\">08-金融商品と税金</a>"}]},{"type":"heading","depth":2,"payload":{"lines":[17,18]},"content":"09-ポートフォリオとデリバティブ取引","children":[{"type":"list_item","depth":4,"payload":{"lines":[18,19]},"content":"<a href=\"./3_link/09.html\">09-ポートフォリオとデリバティブ取引</a>"}]}]},null)</script>
+</body>
+</html>

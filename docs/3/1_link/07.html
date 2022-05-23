@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.13.3/dist/style.min.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@6.7.0"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.13.3"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.13.3/dist/index.umd.min.js"></script><script>(r => {
+          setTimeout(r);
+        })(() => {
+  const {
+    markmap,
+    mm
+  } = window;
+  const toolbar = new markmap.Toolbar();
+  toolbar.attach(mm);
+  const el = toolbar.render();
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root, jsonOptions) => {
+        const markmap = getMarkmap();
+        window.mm = markmap.Markmap.create('svg#mindmap', (getOptions || markmap.deriveOptions)(jsonOptions), root);
+      })(() => window.markmap,null,{"type":"heading","depth":1,"payload":{"lines":[0,1]},"content":"07-企業年金等","children":[{"type":"heading","depth":2,"payload":{"lines":[1,2]},"content":"1.企業年金","children":[{"type":"heading","depth":3,"payload":{"lines":[2,3]},"content":"1.確定給付型","children":[{"type":"list_item","depth":5,"payload":{"lines":[3,4]},"content":"将来支払われる年金の額があらかじめ決まっているタイプの年金"},{"type":"list_item","depth":5,"payload":{"lines":[4,5]},"content":"厚生年金基金や確定給付企業年金"}]},{"type":"heading","depth":3,"payload":{"lines":[5,6]},"content":"2.確定拠出型","children":[{"type":"list_item","depth":5,"payload":{"lines":[6,7]},"content":"一定の掛け金を加入者が拠出、運用し、運用結果によって、将来の金額が決まるタイプの年金制度"},{"type":"list_item","depth":5,"payload":{"lines":[7,8]},"content":"企業型"},{"type":"list_item","depth":5,"payload":{"lines":[8,9]},"content":"個人型"}]}]},{"type":"heading","depth":2,"payload":{"lines":[9,10]},"content":"2.確定拠出年金のポイント","children":[{"type":"list_item","depth":4,"payload":{"lines":[10,12]},"content":"確定拠出年金のポイント<br>\n<img src=\"https://money-viva.jp/img/ideco001403.jpg\" alt=\"確定拠出年金のポイント\">"}]},{"type":"heading","depth":2,"payload":{"lines":[12,13]},"content":"3.自営業者等のための年金制度","children":[{"type":"list_item","depth":4,"payload":{"lines":[13,14]},"content":"付加年金","children":[{"type":"list_item","depth":6,"payload":{"lines":[14,15]},"content":"月額400円"},{"type":"list_item","depth":6,"payload":{"lines":[15,16]},"content":"付加年金の額 = 付加年金保険料を支払った月数 * 200円"}]},{"type":"list_item","depth":4,"payload":{"lines":[16,17]},"content":"国民年金基金","children":[{"type":"list_item","depth":6,"payload":{"lines":[17,18]},"content":"第一号被保険者が国民年金に上乗せして受給するための年金制度"},{"type":"list_item","depth":6,"payload":{"lines":[18,19]},"content":"拠出限度額68000円"},{"type":"list_item","depth":6,"payload":{"lines":[19,20]},"content":"付加年金と国民年金基金の両方に加入することはできない"},{"type":"list_item","depth":6,"payload":{"lines":[20,21]},"content":"全国国民年金基金となった（地域型基金 + 職能型基金）"}]},{"type":"list_item","depth":4,"payload":{"lines":[21,22]},"content":"小規模企業共済","children":[{"type":"list_item","depth":6,"payload":{"lines":[22,23]},"content":"従業員が20名以下の個人事業主や役員のための退職金制度"},{"type":"list_item","depth":6,"payload":{"lines":[23,24]},"content":"掛け金は月額1000 - 70000円"},{"type":"list_item","depth":6,"payload":{"lines":[24,25]},"content":"掛け金が」小規模企業共済等掛け金控除の対象"}]}]}]},null)</script>
+</body>
+</html>
